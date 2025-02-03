@@ -12,37 +12,37 @@ const cardData = [
       title: "Shoes",
       icon: FaShoePrints,
       description: "If a dog chews shoes whose shoes does he choose?",
-      image: "/Image/shoes.png"
+      image: "Image/shoes.png"
    },
    {
       title: "Laptop",
       icon: FaLaptop,
       description: "A powerful machine for all your needs.",
-      image: "/Image/laptop.png"
+      image: "Image/laptop.png"
    },
    {
       title: "Mobile Phone",
       icon: FaMobileAlt,
       description: "Stay connected wherever you go.",
-      image: "/Image/mobile.png"
+      image: "Image/mobile.png"
    },
    {
       title: "Shoes",
       icon: FaShoePrints,
       description: "If a dog chews shoes whose shoes does he choose?",
-      image: "/Image/shoes.png"
+      image: "Image/shoes.png"
    },
    {
       title: "Laptop",
       icon: FaLaptop,
       description: "A powerful machine for all your needs.",
-      image: "/Image/laptop.png"
+      image: "Image/laptop.png"
    },
    {
       title: "Mobile Phone",
       icon: FaMobileAlt,
       description: "Stay connected wherever you go.",
-      image: "/Image/mobile.png"
+      image: "Image/mobile.png"
    }
 ];
 
@@ -51,19 +51,19 @@ const customerData = [
       title: "Shoes",
       icon: FaShoePrints,
       description: "If a dog chews shoes whose shoes does he choose?",
-      image: "/Image/shoes.png"
+      image: "Image/shoes.png"
    },
    {
       title: "Laptop",
       icon: FaLaptop,
       description: "A powerful machine for all your needs.",
-      image: "/Image/laptop.png"
+      image: "Image/laptop.png"
    },
    {
       title: "Mobile Phone",
       icon: FaMobileAlt,
       description: "Stay connected wherever you go.",
-      image: "/Image/mobile.png"
+      image: "Image/mobile.png"
    },
 ];
 const reviewData = [
@@ -151,7 +151,7 @@ function LayoutMain({ children }) {
 
                {/* Absolute Image */}
                <img
-                  src="/Image/Group2.png"
+                  src={`Image/Group2.png`}
                   className="h-fit w-[50vw] hidden lg:block ml-10 lg:absolute inset-x-2/4 right-[-20vw] max-w-none shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7)] z-10"
                />
             </div>
@@ -215,7 +215,7 @@ function LayoutMain({ children }) {
             <div className="flex justify-center w-full h-fit items-center relative align-middle p-10 lg:p-20 lg:my-20 ">
                {/* Left Content */}
                <div className=" w-full lg:w-1/2 flex-col flex gap-5 pr-10">
-                  <img src="/Image/Group4.png" className="h-fit w-20" />
+                  <img src={`Image/Group4.png`} className="h-fit w-20" />
 
                   <h1 className="font-light text-[clamp(2rem,3vw,3.3rem)] leading-tight py-6">
                      Provide powerful
@@ -241,7 +241,7 @@ function LayoutMain({ children }) {
                   <Button transparent={true} MoreClass="btn-outline join-item rounded-full max-lg:btn-sm btn-sm w-fit">Get Started <MdOutlineArrowOutward className='w-6 h-6' />  </Button>
                </div>
                <img
-                  src="/Image/Group.png"
+                  src={`Image/Group.png`}
                   className="max-lg:hidden h-fit w-[30vw] shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7),2vw_0_20vw_-5vw_rgba(34,197,94,0.7)] z-10"
                />
             </div>
@@ -253,17 +253,17 @@ function LayoutMain({ children }) {
                   <div className="avatar-group -space-x-3 rtl:space-x-reverse">
                      <div className="avatar">
                         <div className="w-16 lg:w-24">
-                           <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                           <img src={`Image/Picture1.png`} />
                         </div>
                      </div>
                      <div className="avatar">
                         <div className="w-16 lg:w-24">
-                           <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                           <img src={`Image/Picture2.png`} />
                         </div>
                      </div>
                      <div className="avatar">
                         <div className="w-16 lg:w-24">
-                           <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                           <img src={`Image/Picture3.png`} />
                         </div>
                      </div>
                   </div>
@@ -300,7 +300,7 @@ function LayoutMain({ children }) {
 
                {/* Left Content */}
                <div className="md:col-span-2 lg:col-span-3 w-full flex-col flex gap-5 items-center m-auto">
-                  {/* <img src="/Image/Group5.png" className="h-fit w-20" /> */}
+                  {/* <img src="Image/Group5.png" className="h-fit w-20" /> */}
                   <div className="flex gap-2">
                      <MdOutlineRadioButtonUnchecked />
                      <MdOutlineRadioButtonUnchecked />
@@ -318,14 +318,14 @@ function LayoutMain({ children }) {
                </div>
 
                <div className="w-full flex-col flex gap-5 pr-10 ">
-                  <img src="/Image/Group6.png" className="h-fit w-20" />
+                  <img src={`Image/Group6.png`} className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Simple Systems
                      Sublime is easy to use and even easy to
                      integrate with existing systems.
                   </p>
-                  <img src="/Image/Group7.png" className="h-fit w-20" />
+                  <img src={`Image/Group7.png`} className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Easily Customized
@@ -336,20 +336,20 @@ function LayoutMain({ children }) {
 
 
                <img
-                  src="/Image/Group3.png"
+                  src={`Image/Group3.png`}
                   className="max-lg:hidden h-fit w-[40vw] shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7),2vw_0_20vw_-5vw_rgba(34,197,94,0.7)] z-10"
                />
 
 
                <div className="w-full flex-col flex gap-5 pr-10 ">
-                  <img src="/Image/Group4.png" className="h-fit w-20" />
+                  <img src={`Image/Group4.png`} className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Increased Efficiency
                      Our workflows are streamlined, optimised
                      and built to perform.
                   </p>
-                  <img src="/Image/Group5.png" className="h-fit w-20" />
+                  <img src={`Image/Group5.png`} className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Great Communication
@@ -364,7 +364,7 @@ function LayoutMain({ children }) {
             <div className="max-md:text-center g w-full h-fit items-center relative align-middle p-5 lg:my-20 gap-20">
                {/* Left Content */}
                <div className="grid md:grid-cols-3 w-full gap-5 items-center place-items-center text-center  m-auto">
-                  {/* <img src="/Image/Group5.png" className="h-fit w-20" /> */}
+                  {/* <img src="Image/Group5.png" className="h-fit w-20" /> */}
                   <MdOutlineRadioButtonUnchecked className='max-md:hidden' />
                   <section>
                      <p className="text-xl font-semibold uppercase text-stone-600">55,000+ trusted businesses</p>
@@ -406,17 +406,17 @@ function LayoutMain({ children }) {
                   ))}
                </div>
                <div className="grid grid-flow-row w-full items-center place-items-center  text-center m-auto gap-10">
-                  {/* <img src="/Image/Group5.png" className="h-fit w-20" /> */}
+                  {/* <img src="Image/Group5.png" className="h-fit w-20" /> */}
                   <section className=''>
                      <p className="text-lg font-semibold uppercase text-stone-900">clients using sublime</p>
 
                   </section>
 
                   <section className='justify-center place-content-center items-center gap-10 flex flex-wrap w-full'>
-                     <img src="/Image/tribal.png" className="h-fit w-32 saturate-50" />
-                     <img src="/Image/peng.png" className="h-fit w-32 saturate-50" />
-                     <img src="/Image/veroxfloop.png" className="h-fit w-32 saturate-50" />
-                     <img src="/Image/invouce2go.png" className="h-fit w-32 saturate-50" />
+                     <img src={`Image/tribal.png`} className="h-fit w-32 saturate-50" />
+                     <img src={`Image/peng.png`} className="h-fit w-32 saturate-50" />
+                     <img src={`Image/veroxfloop.png`} className="h-fit w-32 saturate-50" />
+                     <img src={`Image/invouce2go.png`} className="h-fit w-32 saturate-50" />
 
                   </section>
                </div>
