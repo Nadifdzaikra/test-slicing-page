@@ -151,7 +151,7 @@ function LayoutMain({ children }) {
 
                {/* Absolute Image */}
                <img
-                  src={`${process.env.REACT_APP_BASE_URL}/Image/Group2.png`}
+                  src="/Image/Group2.png"
                   className="h-fit w-[50vw] hidden lg:block ml-10 lg:absolute inset-x-2/4 right-[-20vw] max-w-none shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7)] z-10"
                />
             </div>
@@ -215,7 +215,7 @@ function LayoutMain({ children }) {
             <div className="flex justify-center w-full h-fit items-center relative align-middle p-10 lg:p-20 lg:my-20 ">
                {/* Left Content */}
                <div className=" w-full lg:w-1/2 flex-col flex gap-5 pr-10">
-                  <img src={`${process.env.REACT_APP_BASE_URL}/Image/Group4.png`} className="h-fit w-20" />
+                  <img src="/Image/Group4.png" className="h-fit w-20" />
 
                   <h1 className="font-light text-[clamp(2rem,3vw,3.3rem)] leading-tight py-6">
                      Provide powerful
@@ -241,7 +241,7 @@ function LayoutMain({ children }) {
                   <Button transparent={true} MoreClass="btn-outline join-item rounded-full max-lg:btn-sm btn-sm w-fit">Get Started <MdOutlineArrowOutward className='w-6 h-6' />  </Button>
                </div>
                <img
-                  src={`${process.env.REACT_APP_BASE_URL}/Image/Group.png`}
+                  src="/Image/Group.png"
                   className="max-lg:hidden h-fit w-[30vw] shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7),2vw_0_20vw_-5vw_rgba(34,197,94,0.7)] z-10"
                />
             </div>
@@ -318,14 +318,14 @@ function LayoutMain({ children }) {
                </div>
 
                <div className="w-full flex-col flex gap-5 pr-10 ">
-                  <img src={`${process.env.REACT_APP_BASE_URL}/Image/Group6.png`} className="h-fit w-20" />
+                  <img src="/Image/Group6.png" className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Simple Systems
                      Sublime is easy to use and even easy to
                      integrate with existing systems.
                   </p>
-                  <img src={`${process.env.REACT_APP_BASE_URL}/Image/Group7.png`} className="h-fit w-20" />
+                  <img src="/Image/Group7.png" className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Easily Customized
@@ -336,20 +336,20 @@ function LayoutMain({ children }) {
 
 
                <img
-                  src={`${process.env.REACT_APP_BASE_URL}/Image/Group3.png`}
+                  src="/Image/Group3.png"
                   className="max-lg:hidden h-fit w-[40vw] shadow-[-5vw_0_10vw_-3vw_rgba(234,179,8,0.7),2vw_0_20vw_-5vw_rgba(34,197,94,0.7)] z-10"
                />
 
 
                <div className="w-full flex-col flex gap-5 pr-10 ">
-                  <img src={`${process.env.REACT_APP_BASE_URL}/Image/Group4.png`} className="h-fit w-20" />
+                  <img src="/Image/Group4.png" className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Increased Efficiency
                      Our workflows are streamlined, optimised
                      and built to perform.
                   </p>
-                  <img src={`${process.env.REACT_APP_BASE_URL}/Image/Group5.png`} className="h-fit w-20" />
+                  <img src="/Image/Group5.png" className="h-fit w-20" />
 
                   <p className="text-md lg:text-lg">
                      Great Communication
@@ -413,10 +413,10 @@ function LayoutMain({ children }) {
                   </section>
 
                   <section className='justify-center place-content-center items-center gap-10 flex flex-wrap w-full'>
-                     <img src={`${process.env.REACT_APP_BASE_URL}/Image/tribal.png`} className="h-fit w-32 saturate-50" />
-                     <img src={`${process.env.REACT_APP_BASE_URL}/Image/peng.png`} className="h-fit w-32 saturate-50" />
-                     <img src={`${process.env.REACT_APP_BASE_URL}/Image/veroxfloop.png`} className="h-fit w-32 saturate-50" />
-                     <img src={`${process.env.REACT_APP_BASE_URL}/Image/invouce2go.png`} className="h-fit w-32 saturate-50" />
+                     <img src="/Image/tribal.png" className="h-fit w-32 saturate-50" />
+                     <img src="/Image/peng.png" className="h-fit w-32 saturate-50" />
+                     <img src="/Image/veroxfloop.png" className="h-fit w-32 saturate-50" />
+                     <img src="/Image/invouce2go.png" className="h-fit w-32 saturate-50" />
 
                   </section>
                </div>
